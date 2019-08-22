@@ -29,14 +29,20 @@ namespace ConsoleApplication1
             // print a message to the screen
             Console.WriteLine("Hello out there.");
             Console.WriteLine("I will add two numbers for you.");
-            Console.WriteLine("Enter one number and press enter, then enter second number and press enter:");
 
             // declare two integer variables
             int n1, n2, sum;
 
             string userInput;
+
+            // Ask for first number
+            Console.WriteLine("Enter first number: ");
+
             userInput = Console.ReadLine();
             n1 = Int32.Parse(userInput);
+
+            // Ask for second number
+            Console.WriteLine("Enter second number: ");
             n2 = Int32.Parse(Console.ReadLine());
 
             // calculate the sum of these two numbers
